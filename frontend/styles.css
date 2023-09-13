@@ -459,14 +459,17 @@
     .browser-section {
         display: flex;
         flex-direction: column;
+        /* align-items: center; */
+        margin-top: 160px;
     }
     
     .browser-cards {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: center;
-        /* margin-top: 160px; */
+        margin-top: 60px;
+        margin-left: 85px;
     }
     
     .browser-card {
@@ -480,7 +483,7 @@
         /* background: #3B3B3B; */
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        /* justify-content: space-evenly; */
     }
     
     .browser-card-img {
@@ -546,5 +549,125 @@
         font-weight: 600;
         line-height: 140%;
         /* 30.8px */
+        text-transform: capitalize;
+    }
+    /* Next Discover Section Starts */
+    
+    .discover-nft-section {
+        /* display: flex;
+        flex-direction: column; */
+        margin-top: 160px;
+        /* margin-bottom: 160px; */
+    }
+    
+    .discover-cards {
+        margin-top: 20px;
+        display: flex;
+        /* justify-content: space-between; */
+        /* width: 95%; */
+        height: 496px;
+        padding: 50px;
+    }
+    
+    .discover-card {
+        display: flex;
+        height: 469px;
+        flex-direction: column;
+        align-items: center;
+        flex: 1 0 0;
+        border-radius: 20px;
+        /* background-color: #3B3B3B; */
+    }
+    
+    .discover-card-image {
+        width: 330px;
+        height: 295px;
+        border-radius: 20px 20px 0px 0px;
+        background-size: cover;
+    }
+    /* Discover Cards large images */
+    
+    .discover-card-img1 {
+        background-image: url(/images/discover-imageL1.png);
+    }
+    
+    .discover-card-img2 {
+        background-image: url(/images/discover-imageL2.png);
+    }
+    
+    .discover-card-img3 {
+        background-image: url(/images/discover-imageL3.png);
+    }
+    /* new Section Starts */
+    
+    .magic-mashrooms-section {
+        /* width: 100%; */
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 360px 195px 60px 195px;
+        justify-content: center;
+        /* align-items: flex-end; */
+        /* align-self: stretch; */
+        background: linear-gradient(180deg, rgba(162, 89, 255, 0.00) 0%, #A259FF 100%);
+        /* background-image: url(/images/card-pic4.png);
+        background-size: cover;
+        backdrop-filter: blur(100rem); */
+    }
+    
+    .magic-txt {
+        color: #FFF;
+        /* H2 - Work Sans */
+        font-family: Work Sans;
+        font-size: 51px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 110%;
+        /* 56.1px */
+        text-transform: capitalize;
+    }
+    
+    .main-mashroom-div {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .inner-div2 {
+        display: flex;
+        width: 295px;
+        padding: 30px;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        background: rgba(59, 59, 59, 0.50);
+        backdrop-filter: blur(5px);
+    }
+    
+    .inner-div2-txt {
+        color: var(--Text, #FFF);
+        /* Caption - Space Mono */
+        font-family: Space Mono;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%;
+        /* 13.2px */
+    }
+    
+    .inner-div2-time {
+        display: flex;
+        gap: 30px;
+        color: var(--Text, #FFF);
+        /* H3 - Space Mono */
+        font-family: Space Mono;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 45.6px */
         text-transform: capitalize;
     }
